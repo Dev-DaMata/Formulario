@@ -1,0 +1,81 @@
+body {
+    background-color: #f3d915;
+    width: 100%;
+    height: 100%;
+}
+.Titulo {
+    border: inset 4px;
+    border-color: #000000;
+    background-color: aliceblue;
+    color: #000000;
+    margin: 10px white;
+    font-size: 40px;
+    padding: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.Titulo2 {
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    border: inset 4px;
+    border-color: #000000;
+    /* border-left: inset 4px; */
+    /* border-left: 50px; */
+    display: flex;
+    justify-content: space-around; 
+    width: 40%;
+    height: 40%;   
+}
+form {
+    background-color: aliceblue;
+    border: inset 4px;
+    border-color: black;
+    padding: rgb(0, 0, 0);
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+}
+.h1form{
+    text-align: center;
+}
+input {
+    margin-left: auto;
+    padding-bottom: 5px;
+}
+label {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.text1 {
+    margin-top: 75px
+}
+button {
+    color: rgba(255, 255, 0, );
+}
+.botao:hover{
+    background-color: green;
+    color: black;
+    height: 30px;
+}
+.Emenda{
+    text-align: center;
+}
+
+.Skills{
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    border: inset 4px;
+    border-left: inset 4px;
+    border-left: 50px;
+    display: flex;
+    justify-content: space-around; 
+    width: 40%;
+    height: 40%;
+
+}
+footer{
+    text-align: right;
+}
+

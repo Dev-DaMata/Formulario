@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resilia</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="MidiaQuerie.css">
+    
+</head>
+<body>
+    <header class="Titulo" style="text-align: center;">Parabéns, você chegou ate aqui! agora só falta preencher esse formulario</header>
+    <h2 class="Titulo2">Assine o formulario abaixo</h2>
+<div>     
+    <form> 
+    <h1 class="h1form">formulario</h1>
+    <label class="text1"> Escreva o seu nome:</label>
+    <input type="text" name="name" id="formfname" required autocomplete="off"/>
+    <!-- o required autocomplete serve para mostrar que esse campo é obrigatorio -->
+    <br>
+    <label for=>Data de nascimento:</label>
+    <input type="number" name="borndate" id=formdate required autocomplete="off" placeholder="##/##/####"/> 
+    <!-- o placeholder serve para adcionar os campos### -->
+    <br>
+    <label for="CPF">CPF:</label>
+    <input type="number" name="CPF" id="formcpf" required autocomplete="off" placeholder="###.###.###-##"/>
+    <br>
+    <label>Telefone:</label>
+    <input form="Cell" name="Cell" id="formCell" required autocomplete="off" placeholder="(##) #####-####"/>
+    <br>
+    <label>Gênero:</label>
+    <select id="Gênero">
+        <option selected disabled value="">Selecione</option>
+        <option>Prefiro não dizer</option>
+        <option>Homossexual</option>
+        <option>Bissexual</option>
+        <option>Pansexual</option>
+        <option>Assexual</option>
+        <option>Heterosexual</option>
+    </select>  
+    <br>
+    <label>você leu e concorda com os termos?</label>
+    <input type="radio" name="Sim">
+    <label for="radio"> Sim</label>
+    <input class="botao" type="submit" value="Envia" class="Button"/>
+</div>
+    <h1 class="Emenda">Ementa do curso</h1> 
+
+    <div class="Skills">
+        
+        <div class="itens">
+            <h1>Soft Skills</h1>
+            <p>
+            Comunicação assertiva
+            <br>
+            Aprender a aprender
+            <br>
+            Adaptabilidade
+            <br>
+            Gestão de Tempo
+            <br>
+            Liderança
+            <br>
+            Resiliência
+            <br>
+            Trabalho em equipe
+            </p> 
+        </div>
+        <div class="itens">
+            <h1>Hard Skills</h1>
+            JavaScript   
+            <br>
+            Node
+            <br>
+            SQL
+            <br>
+            HTML/CSS
+            <br>
+            React
+            <br>
+            Rest API
+            <br>
+            Metodologias ágeis
+        </div>
+    </div> 
+    <footer><img src="https://miro.medium.com/fit/c/176/176/1*9K7qcwgJMOtvWeVV3TtcUw.jpeg"></footer>
+ 
+</body>
+</html>
